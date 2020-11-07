@@ -1,7 +1,7 @@
 from django.urls import path
-from announcements.views import AnnouncementCreateView, AnnouncementListView, AnnouncementDetailView, AnnouncementUpdateView, \
+from announcements.views import AnnouncementCreateView, AnnouncementListView, AnnouncementDetailView, \
+    AnnouncementUpdateView, \
     AnnouncementDeleteView
-
 
 urlpatterns = [
     path('', AnnouncementListView.as_view(), name='announcement-home'),
