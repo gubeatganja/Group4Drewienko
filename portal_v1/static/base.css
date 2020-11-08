@@ -101,11 +101,10 @@ a.article-title:hover {
 /*  background-color: #161515;*/
 /*}*/
 
-/* Navbar links */
 .navbar a {
   float: left;
   text-align: left;
-  padding: 5px;
+  padding: 2px;
   text-decoration: none;
   font-size: 15px;
 }
@@ -114,14 +113,18 @@ a.article-title:hover {
   margin-left: 30px;
 }
 
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: #342b2b;
+.dropdown-item:hover {
+  margin-left: 3px;
+  background-color: #bfbfbd;
 }
+/* !*Navbar links on mouse-over *!*/
+/*.navbar a:hover {*/
+/*  background-color: #403f3f;*/
+/*}*/
 
 /* Current/active navbar link */
 .active {
-  background-color: #343734;
+  background-color: #1d1f1d;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
@@ -131,3 +134,4 @@ a.article-title:hover {
     display: block;
   }
 }
+

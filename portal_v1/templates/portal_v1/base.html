@@ -46,15 +46,15 @@
                         <a class="dropdown-item" href="#">Łóżka</a>
                         <a class="dropdown-item" href="#">Zestawy wypoczynkowe</a>
                         <a class="dropdown-item" href="#">Krzesła</a>
-                        <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider border"></div>
                         <a class="dropdown-item" href="#">Inne..</a>
                      </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Logowanie</a>
+                    <a class="nav-link" href="/login">Logowanie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Zarejestruj</a>
+                    <a class="nav-link " href="/register">Zarejestruj</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -66,14 +66,13 @@
     <main  class="container .conteiner">
         <div class="row">
             <div class="col">
-                miejsce na coś tam nw
-                Wyróżnione ogłoszenia np.
+                {% block left-side %}{% endblock %}
             </div>
             <div class="col-8">
                 {% block content %}{% endblock %}
             </div>
             <div class="col">
-                Miejsce na reklamę?
+                {% block right-side %}{% endblock %}
             </div>
         </div>
     </main>
