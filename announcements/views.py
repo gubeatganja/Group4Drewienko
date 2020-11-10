@@ -47,7 +47,7 @@ class AnnouncementUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView
 
 class AnnouncementDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Announcement
-    success_url = '/'
+    success_url = "/"
 
     def test_func(self):
         ann = self.get_object()

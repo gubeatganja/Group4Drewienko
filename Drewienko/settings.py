@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'users',
     'announcements',
     'portal_v1',
+    'Drewienko',
 ]
 
 MIDDLEWARE = [
