@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-from .secrets import *
+
 
 # from decouple import config
 
@@ -26,6 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'TRUE'
+SECRET_KEY = 'yvldl9dv&))a@838=t$@qqm20p!s=7x240*+vqm!n%u!2zjrg5'
 
 ALLOWED_HOSTS = []
 
